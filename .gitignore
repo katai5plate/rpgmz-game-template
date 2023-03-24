@@ -3,7 +3,6 @@
 /src/audio/me/*
 /src/audio/se/*
 /src/effects/*
-/src/fonts/*
 /src/icon/*
 /src/img/animations/*
 /src/img/battlebacks[0-9]/*
@@ -17,6 +16,15 @@
 /src/img/sv_actors/*
 /src/img/sv_enemies/*
 /src/img/system/*
+!/src/img/system/Balloon.png
+!/src/img/system/ButtonSet.png
+!/src/img/system/GameOver.png
+!/src/img/system/IconSet.png
+!/src/img/system/Shadow1.png
+!/src/img/system/Shadow2.png
+!/src/img/system/States.png
+!/src/img/system/Weapons[0-9].png
+!/src/img/system/Window.png
 /src/img/tilesets/*
 !/src/img/tilesets/easy-rpg
 /src/img/titles[0-9]/*
