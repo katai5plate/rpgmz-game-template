@@ -26,8 +26,13 @@
       $dataSystem.startMapX !== Number(params.startMapX) &&
       $dataSystem.startMapY !== Number(params.startMapY)
     )
-      console.warn("[LINT] 初期位置が違います！");
+      return console.warn("[LINT] 初期位置が違います！");
+    console.log("[LINT] 問題なし");
   };
 
-  setTimeout(() => lint(), 1000);
+  if (
+    (Utils.isNwjs() && Utils.isOptionValid("test")) ||
+    location.href.match(/\/\/localhost/)
+  )
+    setTimeout(() => lint(), 1000);
 })();

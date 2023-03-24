@@ -3,9 +3,9 @@
     "main": "index.html",
     "chromium-args": "--force-color-profile=srgb",
     "window": {
-        "title": "オレオレゲーム制作キット",
-        "width": 960,
-        "height": 720,
+        "title": "オレオレテンプレート",
+        "width": 720,
+        "height": 960,
         "position": "center",
         "icon": "icon/icon.png"
     }
