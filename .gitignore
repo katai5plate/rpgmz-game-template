@@ -7,15 +7,21 @@
 /game/img/animations/*
 /game/img/battlebacks[0-9]/*
 /game/img/characters/*
-!/game/img/characters/easy-rpg
 /game/img/enemies/*
 /game/img/faces/*
 /game/img/parallaxes/*
-!/game/img/parallaxes/easy-rpg
 /game/img/pictures/*
 /game/img/sv_actors/*
 /game/img/sv_enemies/*
 /game/img/system/*
+/game/img/tilesets/*
+/game/img/titles[0-9]/*
+/game/movies/*
+/game/save/*
+*.ignore.*
+
+!/game/img/characters/easy-rpg
+!/game/img/parallaxes/easy-rpg
 !/game/img/system/Balloon.png
 !/game/img/system/ButtonSet.png
 !/game/img/system/GameOver.png
@@ -25,12 +31,7 @@
 !/game/img/system/States.png
 !/game/img/system/Weapons[0-9].png
 !/game/img/system/Window.png
-/game/img/tilesets/*
 !/game/img/tilesets/easy-rpg
-/game/img/titles[0-9]/*
-/game/movies/*
-/game/save/*
-*.ignore.*
 
 # Logs
 logs
